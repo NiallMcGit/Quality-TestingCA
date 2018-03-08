@@ -14,6 +14,8 @@ namespace TestingCA
         {
             double premium;
 
+            gender.ToLower();
+
             if (gender == "female")
                 if ((age >= 18) && (age <= 30))
                     premium = 5.0;

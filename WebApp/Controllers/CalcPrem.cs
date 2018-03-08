@@ -7,6 +7,7 @@ namespace WebApp.Controllers
         public Double CalcPremium(int age, string gender)
         {
             double premium;
+            gender = gender.ToLower();
 
             if (gender == "female")
                 if ((age >= 18) && (age <= 30))
@@ -27,6 +28,7 @@ namespace WebApp.Controllers
 
             if (age >= 50)
                 premium = premium * 0.5;
+
             return premium;
         }
     }

@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingCA", "TestingCA\TestingCA.csproj", "{6804CA42-6CB2-44F2-A1BE-81E5732F7A32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingCaTests", "TestingCaTests\TestingCaTests.csproj", "{76B48F1C-5A45-4CF8-81B9-229CBDA5308A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingNUnitTests", "TestingCaTests\TestingNUnitTests.csproj", "{76B48F1C-5A45-4CF8-81B9-229CBDA5308A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{B1EEA948-09D8-40B8-A60A-E7715D40A3CB}"
 EndProject

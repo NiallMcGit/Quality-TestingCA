@@ -8,7 +8,7 @@ using fit.Fixtures;
 
 namespace TestingCA
 {
-    public class InsuranceTests : ColumnFixture
+    public class FitTests : ColumnFixture
     {
         public string gender;
         public int age;
